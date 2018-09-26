@@ -75,15 +75,15 @@ def test__file__():
     # myapp_directory = cwd + '\myappdir'
     # print(myapp_directory)
 
-    import sys
-    cwd = os.getcwd()
-    print('cwd: ',cwd)
-    ncwd = os.path.dirname(cwd)
-    print('ncwd: ', ncwd)
-    new_dir = ncwd + '\Python_USR_PW'
-    print('new_dir:', new_dir)
-    sys.path.insert(0, new_dir)
-    print('sys.path[0]: ',sys.path[0])
+    # import sys
+    # cwd = os.getcwd()
+    # print('cwd: ',cwd)
+    # ncwd = os.path.dirname(cwd)
+    # print('ncwd: ', ncwd)
+    # new_dir = ncwd + '\Python_USR_PW'
+    # print('new_dir:', new_dir)
+    # sys.path.insert(0, new_dir)
+    # print('sys.path[0]: ',sys.path[0])
 
 
 
