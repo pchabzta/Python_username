@@ -71,9 +71,9 @@ def test__file__():
     # for i in p:
     #     print(p)
     #
-    # cwd = os.getcwd()
-    # myapp_directory = cwd + '\myappdir'
-    # print(myapp_directory)
+    cwd = os.getcwd()
+    myapp_directory = cwd + '\myappdir'
+    print(myapp_directory)
 
     # import sys
     # cwd = os.getcwd()
