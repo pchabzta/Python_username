@@ -65,15 +65,15 @@ def test__file__():
     # import sys
     # sys.path.insert(2, "/home/myname/pythonfiles")
 
-    import sys
-    print('sys.path:',sys.path)
-    p = sys.path
-    for i in p:
-        print(p)
-
-    cwd = os.getcwd()
-    myapp_directory = cwd + '\myappdir'
-    print(myapp_directory)
+    # import sys
+    # print('sys.path:',sys.path)
+    # p = sys.path
+    # for i in p:
+    #     print(p)
+    #
+    # cwd = os.getcwd()
+    # myapp_directory = cwd + '\myappdir'
+    # print(myapp_directory)
 
     import sys
     cwd = os.getcwd()
